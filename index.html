@@ -19,17 +19,101 @@
     <body>
     <header class="w3-container w3-green w3-center" style="padding:32px 16px">
         <h1 class="w3-margin w3-jumbo">Jay Crowell</h1>
-        <p class="w3-xlarge">It's me!</p>
+        <p class="w3-large">I bought a domain so I suppose I'd better use it!</p>
     </header>
     <div class="w3-container">
-        <div class="w3-content" style="max-width: 500px;">
+        <div class="w3-content" style="max-width: 650px;">
             <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-xlarge w3-wide">ABOUT ME</span></h5>
-            <p class="w3-large"><br>Hi! I'm a first year Computer Science and Statistics student at the University of Illinios in Urbana-Champaign
+            <p class="w3-large">Hi! I'm a first year Computer Science and Statistics student at the University of Illinios in Urbana-Champaign.
                 <br><br>
-                I don't really do a whole lot yet, but I have pretty big goals for myself and want to start working on interesting things soon!
+                I'm interested in computers most of the time, particularly to do with information security. I like to play CTF's, work on the odd Raspberry Pi project, but above all, I love to learn. If I haven't heard of it, I'd like to! I also really want to get into astrophotography someday.
+                <br><br>
+                Not sure how you're reading this unless you're Cara (<3!) as I don't have much to speak for or opportunities to share this, it's just the start of a soon-to-grow portfolio site. But I hope you like it regardless! 
             </p>
+            <img title="𝓞𝓱 𝔀𝓱𝔂 𝔂𝓮𝓼, 𝓽𝓱𝓪𝓽 𝓲𝓼 𝓶𝓮, 
+            𝓽𝓱𝓪𝓷𝓴 𝔂𝓸𝓾 𝓯𝓸𝓻 𝓱𝓸𝓿𝓮𝓻𝓲𝓷𝓰, 
+            𝓳𝓾𝓼𝓽 𝓽𝓸 𝓼𝓮𝓮, 
+
+            𝓲𝓯 𝓘 𝓹𝓾𝓽 𝓼𝓸𝓶𝓮 𝓽𝓮𝔁𝓽 𝓱𝓮𝓻𝓮 :)" src="rsz_headshot.jpg" class="myphoto" style="display:block;margin-left:auto;margin-right:auto;width:50%;max-width:500px;padding:30px" class="w3-margin-top">
+            <div class="w3-panel w3-light-grey" style="border-left:8px solid #ccc!important">
+                <p><i>"Never get into a pool via the stairs."</i></p>
+                <p>-Amongst other life advice, from a stranger</p>
+            </div>
+            <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-xlarge w3-wide">EXPERIENCE</span></h5>
+            <div class="w3-container" id="menu">
+                    <div class="w3-content" style="max-width:700px">
+                      <div class="w3-row w3-center w3-card w3-padding" style="background-color:#f1f1f1">
+                        <a href="javascript:void(0)" onclick="openMenu(event, 'Projects');" id="myLink">
+                          <div class="w3-col s6 tablink">Projects</div>
+                        </a>
+                        <a href="javascript:void(0)" onclick="openMenu(event, 'Positions');">
+                          <div class="w3-col s6 tablink">Positions</div>
+                        </a>
+                        <a href="javascript:void(0)" onclick="openMenu(event, 'Education');">
+                          <div class="w3-col s6 tablink">Education</div>
+                        </a>
+                        <a href="javascript:void(0)" onclick="openMenu(event, 'Other-Info');">
+                          <div class="w3-col s6 tablink">Extraneous Info</div>
+                        </a>
+                      </div>
+                  
+                      <div id="Projects" class="w3-container menu w3-padding-48 w3-card" style="background-color:#f1f1f1">
+                            <h5>Various Scripts</h5>
+                            <p class="w3-text-grey">I don't have anything to speak of as far as truly impressive finished software, but in the interest of having <i>something</i> here I'll list anything I can think of that I've written.</p><br>
+                            <h5>First Script</h5>
+                            <p class="w3-text-grey">Bash script on the family computer when I was 13 that would quitely log the amount of time my sister used, as I believed she was going over the time limit and I wouldn't stand for it.</p>
+                            <h5>Project Euler</h5>
+                            <p class="w3-text-grey">Currently have about 25 or so python scripts of solutions to Project Euler problems. They're a fun mix of programming and brain teaser and I'll work on some if I get the urge.</p>
+                            <h5>Optimal Hangman</h5>
+                            <p class="w3-text-grey">Python program that plays hangman optimally based on the frequency of letter positions in English words.</p>
+                            <h5>Lots of half-made android apps</h5>
+                            <p class="w3-text-grey">So many.</p>
+                        </div>
+                      <div id="Positions" class="w3-container menu w3-padding-48 w3-card" style="background-color:#f1f1f1">
+                            <h5>Effingham HS Scholastic Bowl, Team Captain</h5>
+                            <p class="w3-text-grey">Led my high school scholar bowl team to two Apollo Conference wins. 💪</p>
+                      </div>
+                      <div id="Education" class="w3-container menu w3-padding-48 w3-card" style="background-color:#f1f1f1">
+                            <h5>College</h5>
+                            <p class="w3-text-grey">University of Illinois at Urbana-Champaign<br>Major: Computer Science and Statistics<br>GPA: 3.5</p>
+                            <h5>Coding Experience</h5>
+                            <p class="w3-text-grey">Python (2 years), Java (1 year)</p>
+                        </div>
+                      <div id="Other-Info" class="w3-container menu w3-padding-48 w3-card" style="background-color:#f1f1f1">
+                            <h5>Favorites:</h5>
+                            <p class="w3-text-grey">Season: Fall <br>
+                            Movie: Ferris Bueller's Day Off <br>
+                            Road: County Road 1375 N. to E. Park Road, Effingham <br>
+                            </p>
+                      </div>
+                    </div>
+                </div>
+            <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-xlarge w3-wide">CONTACT ME</span></h5>
+            <div class="w3-container" id="where" style="padding-bottom:32px;">
+                <div class="w3-content" style="max-width:650px">
+                    <p class="w3-large">Email me: <a href="mailto:jeremiah.c2001@gmail.com" target="_blank">jeremiah.c2001@gmail.com</a></p>
+                    <p class="w3-large">Check out my <a href="https://github.com/jcrowe6" target="_blank">GitHub</a></p>
+                </div>
+            </div>
         </div>
-        <img src="rsz_headshot.jpg" class="myphoto" style="display:block;margin-left:auto;margin-right:auto;width:22%;max-width:500px;padding:30px" class="w3-margin-top">
     </div>
+    <footer class="w3-container w3-green w3-center" style="padding:64px 64px"></footer>
+    <script>
+            // Tabbed Menu
+            function openMenu(evt, menuName) {
+              var i, x, tablinks;
+              x = document.getElementsByClassName("menu");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+              }
+              tablinks = document.getElementsByClassName("tablink");
+              for (i = 0; i < x.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+              }
+              document.getElementById(menuName).style.display = "block";
+              evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+            }
+            document.getElementById("myLink").click();
+            </script>
     </body>
 </html>
